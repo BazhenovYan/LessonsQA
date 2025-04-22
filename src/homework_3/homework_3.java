@@ -94,7 +94,7 @@ public class homework_3 {
             }
         }
         if (isGrowth) {
-            System.out.println("Массив - возрастающая последовательность");
+            System.out.println("Массив не является возрастающей последовательностью");
         } else {
             System.out.println("Массив не является возрастающим");
         }
