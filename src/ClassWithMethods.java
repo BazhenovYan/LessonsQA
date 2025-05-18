@@ -26,14 +26,14 @@ public class ClassWithMethods {
             System.out.println("Выход за пределы массива");
         }
     }
-        public void multiExcept () { // несколько catch
+        public void multiExcept () { // мульти catch
             try {
                 System.out.println(a / b);
             } catch (NullPointerException | ArithmeticException e) {
                 System.out.println("Неверное значение для операции");
             }
         }
-            public void finallyExcept () { // несколько catch
+            public void finallyExcept () { // finally
                 try {
                     System.out.println(a / b);
                 } catch (ArithmeticException e) {

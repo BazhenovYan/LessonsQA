@@ -6,6 +6,7 @@
         4. try-catch-finally
 Продемонстрировать обработку исключительных ситуаций на примерах*/
 public class Main {
+
     public static void main(String[] args) {
     ClassWithMethods cl = new ClassWithMethods();
     cl.except();
