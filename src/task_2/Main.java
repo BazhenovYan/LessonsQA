@@ -1,4 +1,5 @@
 package task_2;
+homework_6
 /*
 Задача 2:
 Написать иерархию классов Фигура, Треугольник, Прямоугольник, Круг.
@@ -19,5 +20,5 @@ public class Main {
             totalPerimeter += general.perimeter();
         }
         System.out.println("Сумма периметров всех фигур: " + totalPerimeter);
-    }
-}
+        }
+        }
