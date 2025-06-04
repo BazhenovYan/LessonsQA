@@ -1,9 +1,32 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/*
+Задача 1:
+Ввести 3 строки с консоли, найти самую короткую и самую длинную строки.
+Вывести найденные строки и их длину.
+Задача 2:
+Ввести 3 строки с консоли. Упорядочить и вывести строки в порядке
+возрастания значений их длины.
+
+Задача 3:
+Ввести 3 строки с консоли. Вывести на консоль те строки, длина которых
+меньше средней, а также их длину
+Задача 4:
+Ввести 3 строки с консоли. Найти слово, состоящее только из различных
+символов. Если таких слов несколько, найти первое из них.
+Задача 5:
+Вывести на консоль новую строку, которой задублирована каждая буква из
+начальной строки. Например, "Hello" -> "HHeelllloo"
+ */
 public class Main {
     public static void main(String[] args) {
-
-
-
+    Task_1 task_1 = new Task_1();
+    task_1.search();
+    Task2 task2 = new Task2();
+    task2.rising();
+    Task3 task3 = new Task3();
+    task3.middleLength();
+    Task4 task4 = new Task4();
+    task4.uniqueChars();
+    Task5 task5 = new Task5();
+    task5.moreChars();
     }
 }
