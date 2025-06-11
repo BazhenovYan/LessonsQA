@@ -8,11 +8,9 @@ import java.util.Scanner;
 public class Task_1 {
     public void search() {
         Scanner src = new Scanner(System.in);
-        Scanner src2 = new Scanner(System.in);
-        Scanner src3 = new Scanner(System.in);
         String a = src.nextLine();
-        String b = src2.nextLine();
-        String c = src3.nextLine();
+        String b = src.nextLine();
+        String c = src.nextLine();
         String[] arr = {a,b,c};
         String minLine = arr[0];
         String maxLine = arr[0];
